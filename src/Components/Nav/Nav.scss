@@ -1,0 +1,16 @@
+.NavList {
+  display: flex;
+}
+
+.NavList__item:not(:last-child) {
+  margin-right: 15px;
+}
+.NavLink {
+  font-size: 20px;
+  color: #2a2a2a;
+  text-decoration: none;
+}
+
+.NavLink--active {
+  color: palevioletred;
+}
